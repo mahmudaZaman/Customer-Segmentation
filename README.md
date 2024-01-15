@@ -2,23 +2,14 @@
 
 ## Problem Statement
 
-The Customer Segmentation project focuses on the segmentation of customers based on their purchase history and behavioral patterns. By harnessing the power of machine learning, particularly k-means clustering, this project aims to provide valuable insights for businesses in understanding and catering to their customer segments.
-
+The Customer Segmentation project focuses on the segmentation of customers based on their purchase history and behavioral patterns. Companies employing customer segmentation operate under the fact that every customer is different and that their marketing efforts would be better served if they target specific, smaller groups with messages that those consumers would find relevant and lead them to buy something. By harnessing the power of machine learning, this project aims to provide valuable insights for businesses in understanding and catering to their customer segments.
 ## Dataset
 
-For this project, I utilized an extensive e-commerce transaction dataset that includes detailed customer purchase history. This dataset forms the core of the customer segmentation analysis, allowing us to uncover meaningful patterns and segments.
+For this project, I utilized an extensive e-commerce transaction dataset that includes detailed customer purchase history data from Kaggle with diverse attributes such as age, gender, interests, and spending habits. This dataset forms the core of the customer segmentation analysis, allowing us to uncover meaningful patterns and segments.
 
-## AWS Integration
+## Model
 
-The Customer Segmentation project seamlessly integrates with Amazon Web Services (AWS) to leverage advanced tools and capabilities:
-
-- **Amazon SageMaker K-means Clustering**: I implemented k-means clustering using AWS SageMaker. This technique helps in grouping similar customers together, providing businesses with a clearer picture of their customer base.
-
-- **Amazon DynamoDB**: The project efficiently stores cluster labels and customer segment data in Amazon DynamoDB. This cloud-based database solution facilitates real-time user personalization, enabling businesses to offer tailored experiences.
-
-## Deployment on AWS
-
-The project's culmination is the implementation of personalized product recommendations on a website using AWS Lambda. By utilizing the customer segments identified through clustering, the website offers product recommendations that resonate with each segment's preferences, enhancing user engagement and conversion rates.
+Executed diverse machine learning models, such as Logistic Regression, K-Nearest Neighbors Classifier, and Decision Tree Classifier, to analyze customer behavior and preferences. Augmented insights with a deep learning model for a more nuanced understanding of user segments. Identified and preserved the top-performing model, ensuring optimal accuracy and segmentation efficiency. Improved user engagement through a Streamlit-based, user-friendly interface, facilitating seamless input of customer features for instant insights into distinct customer segments.
 
 ## How to Get Started
 
